@@ -7,8 +7,6 @@ CREATE DATABASE ELOM
     LC_COLLATE = 'en_US.utf8' 
     LC_CTYPE = 'en_US.utf8';
 
-ALTER DATABASE ELOM OWNER TO ELOM;
-
 CREATE TABLE tbl_formularios (
     1.1 VARCHAR PRIMARY KEY,
     2.1 TEXT,

@@ -1,13 +1,3 @@
-SET DATESTYLE TO PostgreSQL,European;
-
-CREATE DATABASE elom
-    WITH 
-    TEMPLATE = template0 
-    ENCODING = 'UTF8' 
-    LC_COLLATE = 'en_US.utf8' 
-    LC_CTYPE = 'en_US.utf8';
-ALTER DATABASE elom OWNER TO elom
-\connect elom
 CREATE TABLE tbl_formularios (
     a.1 VARCHAR PRIMARY KEY,
     b.1 TEXT,

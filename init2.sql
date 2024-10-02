@@ -1,14 +1,14 @@
 CREATE TABLE tbl_formularios (
-    a.1 VARCHAR PRIMARY KEY,
-    b.1 TEXT,
-    c.1 VARCHAR
+    a.a VARCHAR PRIMARY KEY,
+    b.b TEXT,
+    c.c VARCHAR
     );
 
 CREATE TABLE forms (
-    a.2 TEXT UNIQUE NOT NULL PRIMARY KEY,
-    b.2 VARCHAR UNIQUE NOT NULL,
-    c.2 VARCHAR,
-    CONSTRAINT b.1
-        FOREIGN KEY (b.1)
-        REFERENCES tbl_formularios(b.1)
+    b.a TEXT UNIQUE NOT NULL PRIMARY KEY,
+    b.b VARCHAR UNIQUE NOT NULL,
+    b.c VARCHAR,
+    CONSTRAINT b.b
+        FOREIGN KEY (b.b)
+        REFERENCES tbl_formularios(b.b)
 );
